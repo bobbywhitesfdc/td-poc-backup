@@ -58,11 +58,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>CampaignId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>ChannelPartnerId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -116,7 +111,6 @@
         <customTabListAdditionalFields>Allocation</customTabListAdditionalFields>
         <customTabListAdditionalFields>Budget</customTabListAdditionalFields>
         <customTabListAdditionalFields>ChannelPartner</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Campaign</customTabListAdditionalFields>
         <customTabListAdditionalFields>CreatedBy</customTabListAdditionalFields>
         <customTabListAdditionalFields>Description</customTabListAdditionalFields>
         <customTabListAdditionalFields>Amount</customTabListAdditionalFields>
@@ -126,7 +120,6 @@
         <lookupDialogsAdditionalFields>Allocation</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>Budget</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ChannelPartner</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Campaign</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>CreatedBy</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>Description</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>Amount</lookupDialogsAdditionalFields>
@@ -136,7 +129,6 @@
         <lookupPhoneDialogsAdditionalFields>Allocation</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Budget</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ChannelPartner</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Campaign</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CreatedBy</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Description</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Amount</lookupPhoneDialogsAdditionalFields>
@@ -146,7 +138,6 @@
         <searchResultsAdditionalFields>Allocation</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Budget</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ChannelPartner</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Campaign</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CreatedBy</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Amount</searchResultsAdditionalFields>

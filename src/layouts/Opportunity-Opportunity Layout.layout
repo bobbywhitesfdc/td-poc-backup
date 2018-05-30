@@ -24,10 +24,6 @@
                 <field>Type</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>CampaignId</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Line_Item_Count__c</field>
             </layoutItems>

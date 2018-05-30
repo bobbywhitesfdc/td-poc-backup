@@ -84,10 +84,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>CampaignId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>Company</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>

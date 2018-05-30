@@ -6,6 +6,11 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>standard__AllTabSet</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>
         <visible>true</visible>
@@ -17,16 +22,6 @@
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Community</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>standard__LightningSalesConsole</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>standard__LightningService</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
@@ -70,6 +65,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>ForgotPasswordController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>JHPostSandboxScript</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>JHPostSandboxScript_Test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -346,101 +349,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>AssetRelationship.RelationshipType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Campaign.ActualCost</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Campaign.AmountAllOpportunities</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Campaign.AmountWonOpportunities</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Campaign.BudgetedCost</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Campaign.Description</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Campaign.EndDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Campaign.ExpectedResponse</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Campaign.ExpectedRevenue</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Campaign.IsActive</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Campaign.NumberOfContacts</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Campaign.NumberOfConvertedLeads</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Campaign.NumberOfLeads</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Campaign.NumberOfOpportunities</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Campaign.NumberOfResponses</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Campaign.NumberOfWonOpportunities</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Campaign.NumberSent</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Campaign.StartDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Campaign.Status</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Campaign.Type</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1338,12 +1246,6 @@
         <layout>Bootcamp__c-Bootcamp Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Campaign-Campaign Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CampaignMember-Campaign Member Page Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Candidate__c-Candidate Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1381,6 +1283,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Event-Event Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FeedItem-Feed Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Global-Global Layout</layout>
@@ -1757,14 +1662,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>AllowUniversalSearch</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>AllowViewKnowledge</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ApexRestServices</name>
     </userPermissions>
     <userPermissions>
@@ -1910,10 +1807,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>EditHtmlTemplates</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EditKnowledge</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -2101,14 +1994,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageKnowledge</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageKnowledgeImportExport</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ManageLeads</name>
     </userPermissions>
     <userPermissions>
@@ -2154,10 +2039,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageSandboxes</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageSearchPromotionRules</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -2242,10 +2123,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>SendSitRequests</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ShareInternalArticles</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

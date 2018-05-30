@@ -3,7 +3,7 @@
     <applicationVisibilities>
         <application>Bootcamp_Tracker</application>
         <default>false</default>
-        <visible>true</visible>
+        <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__AllTabSet</application>
@@ -13,12 +13,12 @@
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>
-        <visible>true</visible>
+        <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Chatter</application>
         <default>false</default>
-        <visible>true</visible>
+        <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Community</application>
@@ -37,13 +37,13 @@
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Sales</application>
-        <default>true</default>
-        <visible>true</visible>
+        <default>false</default>
+        <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Service</application>
-        <default>false</default>
-        <visible>false</visible>
+        <default>true</default>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__ServiceConsole</application>
@@ -53,7 +53,7 @@
     <applicationVisibilities>
         <application>standard__Sites</application>
         <default>false</default>
-        <visible>true</visible>
+        <visible>false</visible>
     </applicationVisibilities>
     <classAccesses>
         <apexClass>ChangePasswordController</apexClass>
@@ -155,51 +155,51 @@
         <apexClass>SiteRegisterController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <custom>true</custom>
+    <custom>false</custom>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Academy_Prework__c.Content_Link__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Academy_Prework__c.Content_Status__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Academy_Prework__c.Exercise_Link__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Academy_Prework__c.Exercise_Status__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Academy_Prework__c.Pct_Complete__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Academy_Prework__c.Status__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Academy_Prework__c.Subject_Area__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Academy_Prework__c.Video_Recording_Link__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Academy_Prework__c.Video_Status__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -212,9 +212,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.AccountSource</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -237,22 +237,22 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.Fax</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.Industry</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.Jigsaw</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.NumberOfEmployees</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -262,14 +262,14 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.ShippingAddress</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.SicDesc</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -282,7 +282,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.Website</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -357,12 +357,12 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Candidate__c.Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Candidate__c.Week__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -472,9 +472,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Contact.Jigsaw</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -517,7 +517,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Contract.BillingAddress</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -542,12 +542,12 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Contract.Description</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Contract.EndDate</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -557,7 +557,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Contract.ShippingAddress</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -647,24 +647,24 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Lead.Description</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Lead.Email</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Lead.Industry</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Lead.Jigsaw</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -672,12 +672,12 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Lead.NumberOfEmployees</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Lead.Phone</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -687,12 +687,12 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Lead.Title</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Lead.Website</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -707,12 +707,12 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Opportunity.LeadSource</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Opportunity.Line_Item_Count__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -732,7 +732,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>OpportunityLineItem.Description</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -752,7 +752,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>OpportunityLineItem.TotalPrice</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -807,7 +807,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Product2.Description</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -822,7 +822,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Product2.Family</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -832,7 +832,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Product2.ProductCode</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -847,9 +847,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SocialPersona.AreWeFollowing</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -877,14 +877,14 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SocialPersona.IsBlacklisted</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SocialPersona.IsFollowingUs</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -892,9 +892,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SocialPersona.Klout</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -907,9 +907,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SocialPersona.MediaType</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -932,9 +932,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SocialPersona.RealName</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -942,9 +942,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SocialPersona.TopicType</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -987,9 +987,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SocialPost.ExternalPostId</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1022,19 +1022,19 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SocialPost.MediaProvider</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SocialPost.MediaType</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SocialPost.MessageType</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1042,9 +1042,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SocialPost.PostPriority</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1057,29 +1057,29 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SocialPost.R6PostId</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SocialPost.R6SourceId</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SocialPost.R6TopicId</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SocialPost.Recipient</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SocialPost.RecipientType</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1102,9 +1102,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SocialPost.Sentiment</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1117,19 +1117,19 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SocialPost.SpamRating</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SocialPost.Status</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SocialPost.StatusMessage</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1142,9 +1142,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>SocialPost.TopicType</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1157,7 +1157,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Solution.IsPublished</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1217,12 +1217,12 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Weekly_Review__c.Score__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Weekly_Review__c.Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1569,13 +1569,25 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Job__c</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Order_Summary__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    <userLicense>Gold Partner</userLicense>
+    <userLicense>Customer Community Plus</userLicense>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AddDirectMessageMembers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApexRestServices</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApiEnabled</name>
+    </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>AssignTopics</name>
@@ -1586,15 +1598,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ConvertLeads</name>
+        <name>ContentWorkspaces</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>CreateTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EditOppLineItemUnitPrice</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -1606,15 +1614,19 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>EnableCommunityAppLauncher</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>EnableNotifications</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>IPRestrictRequests</name>
+        <name>RemoveDirectMessageMembers</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>RunReports</name>
+        <name>RunFlow</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -1627,9 +1639,5 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>UseWebLink</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewGlobalHeader</name>
     </userPermissions>
 </Profile>

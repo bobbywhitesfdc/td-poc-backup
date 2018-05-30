@@ -254,15 +254,6 @@
         <relatedList>RelatedEmailStatusList</relatedList>
     </relatedLists>
     <relatedLists>
-        <fields>CAMPAIGN.NAME</fields>
-        <fields>CAMPAIGN.START_DATE</fields>
-        <fields>CAMPAIGN.CAMPAIGN_TYPE</fields>
-        <fields>CM.STATUS</fields>
-        <fields>CM.RESPONDED</fields>
-        <fields>CM.LAST_UPDATE</fields>
-        <relatedList>RelatedCampaignList</relatedList>
-    </relatedLists>
-    <relatedLists>
         <fields>NAME</fields>
         <relatedList>Candidate__c.Contact__c</relatedList>
     </relatedLists>

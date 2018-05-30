@@ -100,12 +100,6 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
-        <fullName>CampaignId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>CloseDate</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>

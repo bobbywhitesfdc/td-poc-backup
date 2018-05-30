@@ -174,12 +174,6 @@
     <relatedContent>
         <relatedContentItems>
             <layoutItem>
-                <behavior>Readonly</behavior>
-                <field>CampaignId</field>
-            </layoutItem>
-        </relatedContentItems>
-        <relatedContentItems>
-            <layoutItem>
                 <component>runtime_sales_social:socialPanel</component>
             </layoutItem>
         </relatedContentItems>
@@ -208,15 +202,6 @@
         <fields>EMAIL_STATUS.TIMES_OPENED</fields>
         <fields>EMAIL_STATUS.LAST_OPEN_DATE</fields>
         <relatedList>RelatedEmailStatusList</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>CAMPAIGN.NAME</fields>
-        <fields>CAMPAIGN.START_DATE</fields>
-        <fields>CAMPAIGN.CAMPAIGN_TYPE</fields>
-        <fields>CM.STATUS</fields>
-        <fields>CM.RESPONDED</fields>
-        <fields>CM.LAST_UPDATE</fields>
-        <relatedList>RelatedCampaignList</relatedList>
     </relatedLists>
     <runAssignmentRulesDefault>false</runAssignmentRulesDefault>
     <showEmailCheckbox>false</showEmailCheckbox>

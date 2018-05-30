@@ -37,15 +37,7 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__ServiceConsole</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__LightningService</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__LightningSalesConsole</name>
+        <name>standard__AllTabSet</name>
         <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>
