@@ -33,30 +33,6 @@
         <settingValue>true</settingValue>
     </preferences>
     <preferences>
-        <settingName>XssProtection</settingName>
-        <settingValue>true</settingValue>
-    </preferences>
-    <preferences>
-        <settingName>ContentSniffingProtection</settingName>
-        <settingValue>true</settingValue>
-    </preferences>
-    <preferences>
-        <settingName>UpgradeInsecureRequestsPref</settingName>
-        <settingValue>true</settingValue>
-    </preferences>
-    <preferences>
-        <settingName>ReferrerPolicy</settingName>
-        <settingValue>true</settingValue>
-    </preferences>
-    <preferences>
-        <settingName>HstsSitesCommunities</settingName>
-        <settingValue>false</settingValue>
-    </preferences>
-    <preferences>
-        <settingName>RedirectionWarning</settingName>
-        <settingValue>true</settingValue>
-    </preferences>
-    <preferences>
         <settingName>PathAssistantsEnabled</settingName>
         <settingValue>false</settingValue>
     </preferences>
@@ -69,19 +45,7 @@
         <settingValue>false</settingValue>
     </preferences>
     <preferences>
-        <settingName>S1DesktopEnabled</settingName>
-        <settingValue>false</settingValue>
-    </preferences>
-    <preferences>
-        <settingName>UsersAreLightningOnly</settingName>
-        <settingValue>false</settingValue>
-    </preferences>
-    <preferences>
-        <settingName>RemoveThemeBrandBanner</settingName>
-        <settingValue>false</settingValue>
-    </preferences>
-    <preferences>
-        <settingName>NotesReservedPref01</settingName>
+        <settingName>UseLanguageFallback</settingName>
         <settingValue>false</settingValue>
     </preferences>
     <preferences>
@@ -89,12 +53,12 @@
         <settingValue>false</settingValue>
     </preferences>
     <preferences>
-        <settingName>NetworksEnabled</settingName>
-        <settingValue>true</settingValue>
+        <settingName>ApexApprovalLockUnlock</settingName>
+        <settingValue>false</settingValue>
     </preferences>
     <preferences>
-        <settingName>AnalyticsSharingEnable</settingName>
-        <settingValue>false</settingValue>
+        <settingName>NetworksEnabled</settingName>
+        <settingValue>true</settingValue>
     </preferences>
     <preferences>
         <settingName>VoiceEnabled</settingName>
@@ -150,6 +114,50 @@
     </preferences>
     <preferences>
         <settingName>VerifyOnEmailChange</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>XssProtection</settingName>
+        <settingValue>true</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>ContentSniffingProtection</settingName>
+        <settingValue>true</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>UpgradeInsecureRequestsPref</settingName>
+        <settingValue>true</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>ReferrerPolicy</settingName>
+        <settingValue>true</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>HstsSitesCommunities</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>RedirectionWarning</settingName>
+        <settingValue>true</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>S1DesktopEnabled</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>UsersAreLightningOnly</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>RemoveThemeBrandBanner</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>NotesReservedPref01</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>AnalyticsSharingEnable</settingName>
         <settingValue>false</settingValue>
     </preferences>
 </OrgPreferenceSettings>

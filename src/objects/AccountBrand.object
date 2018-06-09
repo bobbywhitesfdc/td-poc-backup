@@ -39,20 +39,31 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <fields>
-        <fullName>LevelId</fullName>
+        <fullName>AccountId</fullName>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CompanyName</fullName>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+    </fields>
+    <fields>
+        <fullName>LogoId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>PartnerId</fullName>
-        <type>Lookup</type>
+        <fullName>Phone</fullName>
     </fields>
     <fields>
-        <fullName>ProgramId</fullName>
-        <type>MasterDetail</type>
+        <fullName>Website</fullName>
     </fields>
-    <sharingModel>ControlledByParent</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>
