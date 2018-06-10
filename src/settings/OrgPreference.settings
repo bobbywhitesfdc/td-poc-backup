@@ -160,4 +160,8 @@
         <settingName>AnalyticsSharingEnable</settingName>
         <settingValue>false</settingValue>
     </preferences>
+    <preferences>
+        <settingName>CompileOnDeploy</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
 </OrgPreferenceSettings>

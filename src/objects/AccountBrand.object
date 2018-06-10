@@ -65,5 +65,10 @@
     <fields>
         <fullName>Website</fullName>
     </fields>
+    <listViews>
+        <fullName>All_Account_Brands</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Account Brands</label>
+    </listViews>
     <sharingModel>Private</sharingModel>
 </CustomObject>

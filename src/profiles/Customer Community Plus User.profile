@@ -26,6 +26,11 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>standard__LightningInstrumentation</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>standard__Marketing</application>
         <default>false</default>
         <visible>false</visible>
@@ -1344,6 +1349,9 @@
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
         <recordType>Account.Standard_Account</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AccountBrand-Account BrandLayout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Asset-Asset Layout</layout>
