@@ -121,6 +121,15 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Due_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Due Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>ExpectedRevenue</fullName>
         <trackTrending>false</trackTrending>
     </fields>
