@@ -48,6 +48,8 @@
     <reportType>DocumentList</reportType>
     <scope>all</scope>
     <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>DOC_CREATED</dateColumn>
         <interval>INTERVAL_CUSTOM</interval>

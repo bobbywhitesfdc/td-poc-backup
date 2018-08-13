@@ -35,6 +35,8 @@
     </params>
     <reportType>ReportList</reportType>
     <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>CREATEDDATE</dateColumn>
         <interval>INTERVAL_LAST30</interval>

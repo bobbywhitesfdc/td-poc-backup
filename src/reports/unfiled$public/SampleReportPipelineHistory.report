@@ -64,6 +64,8 @@
     <reportType>OpportunityTrend</reportType>
     <scope>organization</scope>
     <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>INTERVAL_DATE</dateColumn>
         <interval>INTERVAL_CURPREV1</interval>

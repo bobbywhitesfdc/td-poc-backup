@@ -40,6 +40,8 @@
     </params>
     <reportType>SolutionList</reportType>
     <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>CREATED_DATE</dateColumn>
         <endDate>2006-06-29</endDate>
